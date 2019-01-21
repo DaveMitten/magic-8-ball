@@ -16,7 +16,7 @@ function askingAQuestion() {
 	console.log(result);
 
 	return result;
-
+ 
 
 
 
