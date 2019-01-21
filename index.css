@@ -1,0 +1,42 @@
+.container {
+	height: 100vh;
+}
+
+.left {
+	width: 20%;
+	border: 2px solid purple;
+	display: inline-block;
+}
+
+.middle {
+	border: 2px solid red;
+	text-align: center;
+	width: fit-content;
+	display: inline-block;
+}
+
+.right {
+	width: 20%;
+	border: 2px solid blue;
+	display: inline-block;
+
+}
+
+.outer-ball {
+	border: 5px dotted black;
+	height: 500px;
+	width: 500px;
+	border-radius: 500px;
+}
+
+.screen {
+	border: 1px solid green;
+	width: 200px;
+	height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-text {}
+
+.submitButton {}
