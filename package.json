@@ -1,0 +1,24 @@
+{
+  "name": "magic-8-ball",
+  "version": "1.0.0",
+  "description": "A simple Javascript game to demonstrate vanilla JS and build tools/task management",
+  "main": "practice.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveMitten/magic-8-ball.git"
+  },
+  "author": "DJM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaveMitten/magic-8-ball/issues"
+  },
+  "homepage": "https://github.com/DaveMitten/magic-8-ball#readme"
+}
