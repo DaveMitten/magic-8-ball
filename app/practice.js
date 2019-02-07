@@ -1,11 +1,10 @@
 //magic 8 ball for vegans
 //collection of answers
 
-
 function askingAQuestion() {
   const questionAsked = document.getElementById('question').value;
- 
-console.log(questionAsked);
+
+  console.log(questionAsked);
 
   const answers = [
     'Nope',
@@ -21,11 +20,16 @@ console.log(questionAsked);
   result.push(randomAnswer);
   console.log(result);
 
+  document.getElementById('screenId').innerHTML = result;
+
+
+  document.getElementById('screenTextId').innerHTML = '';
+
+
+
   return result;
 }
 
-function init() {
-  const resultToScreen = document.querySelector('#screenId');
 
-  resultToScreen.innerText = askingAQuestion;
-}
+
+

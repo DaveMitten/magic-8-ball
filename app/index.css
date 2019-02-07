@@ -1,42 +1,54 @@
 .container {
 	height: 100vh;
-}
-
-.left {
-	width: 20%;
-	border: 2px solid purple;
-	display: inline-block;
-}
-
-.middle {
-	border: 2px solid red;
-	text-align: center;
-	width: fit-content;
-	display: inline-block;
-}
-
-.right {
-	width: 20%;
-	border: 2px solid blue;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
 }
-
 .outer-ball {
 	border: 5px dotted black;
 	height: 500px;
 	width: 500px;
 	border-radius: 500px;
+	background-color: black;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	
 }
 
 .screen {
+	background-color: white;
 	border: 1px solid green;
+	border-radius: 100px;
 	width: 200px;
-	height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	padding: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+
 }
 
-.form-text {}
+.screenText{
 
-.submitButton {}
+}
+
+.styledButton{
+border: 1px solid black;
+}
+
+.styledInput{
+}
+
+.inputLength{
+	width: 200px;
+	margin: 0 auto;
+	padding:0;
+}
+
